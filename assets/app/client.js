@@ -3,13 +3,6 @@ import MemeText from './meme-text.js';
 import ImageContainer from './image-container.js';
 import Meme from './meme.js';
 
-function preload(src) {
-  let img = new Image();
-  img.src = src;
-}
-
-preload('/assets/img/spinner.gif');
-
 let gallery = new Gallery({
   standard: ['kermit', 'grumpy', 'bizcat'],
   custom: 'custom',
