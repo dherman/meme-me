@@ -1,0 +1,21 @@
+{
+  "name": "meme-me",
+  "version": "0.1.0",
+  "description": "A simple meme generator using Neon",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dherman/meme-me"
+  },
+  "author": "David Herman <david.herman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.4.1",
+    "fastify-static": "^3.2.0",
+    "make-promises-safe": "^5.1.0",
+    "neon-cli": "^0.4.0"
+  },
+  "scripts": {
+    "install": "neon build --release"
+  }
+}

@@ -1,0 +1,21 @@
+[package]
+name = "meme-me"
+version = "0.1.0"
+authors = ["David Herman <david.herman@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "meme_me"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"
+artano = "0.3.3"
+font-kit = "0.10.0"
+tempfile = "3.1.0"
