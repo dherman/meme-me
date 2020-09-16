@@ -46,13 +46,3 @@ if (!HTMLImageElement.prototype.arrayBuffer) {
     return p;
   };
 }
-
-if (!window.timeout) {
-  console.log("creating timeout polyfill");
-  window.timeout = n => {
-    let fulfill;
-    let p = new Promise(f => { fulfill = f });
-    window.setTimeout(fulfill, n);
-    return p;
-  }
-}

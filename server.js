@@ -1,6 +1,3 @@
-// let addon = require('./native');
-// console.log(addon.hello());
-
 require('make-promises-safe');
 
 let path = require('path');
