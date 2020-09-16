@@ -2,6 +2,8 @@
 
 This repo demonstrates a simple meme generator web app using Neon.
 
+![Screenshot](https://raw.githubusercontent.com/dherman/meme-me/master/screenshot.png)
+
 ## Running the demo
 
 To run the demo, make sure you have [Rust installed](https://rust-lang.org) and a recent version of Node.
